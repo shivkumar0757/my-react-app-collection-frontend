@@ -9,7 +9,7 @@ function App() {
   
     <Router>
       <div >
-        My Apps
+        
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/asset-liability" element={<AssetLiabiltyComponent />}></Route>
