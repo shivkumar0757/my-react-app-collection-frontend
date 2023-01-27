@@ -1,2 +1,3 @@
-import AssetLiabiltyComponent from "./AssetLiabiltyComponent";
+import AssetLiabiltyComponent from './AssetLiabiltyComponent';
+
 export default AssetLiabiltyComponent;

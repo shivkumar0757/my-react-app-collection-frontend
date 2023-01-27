@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .upper-half {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .upper-upper, .upper-lower {
+    width: 50%;
+  }
+  .lower-half {
+    width: 90%;
+    display: flex;
+  }
+  .lower-left, .lower-right {
+    width: 50%;
+  }

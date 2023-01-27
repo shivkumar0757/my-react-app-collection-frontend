@@ -1,10 +1,13 @@
-import React    from "react";
-import template from "./AssetLiabiltyComponent.jsx";
+import React from 'react';
+import AlHome from '../AlHome';
+ 
 
-class AssetLiabiltyComponent extends React.Component {
-  render() {
-    return template.call(this);
-  }
+function AssetLiabiltyComponent () {
+    return (
+        <div>
+            <AlHome />
+        </div>
+    );
 }
 
 export default AssetLiabiltyComponent;
